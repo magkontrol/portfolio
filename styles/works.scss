@@ -1,0 +1,11 @@
+@import "variables";
+
+.works {
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__item {
+    height: 350px;
+  }
+}

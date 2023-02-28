@@ -1,0 +1,22 @@
+@import "variables";
+
+.person {
+  display: flex;
+  justify-content: space-evenly;
+
+  &__title {
+    color: $COLOR-TEXT-WHITE;
+  }
+  &__subtitle {
+    color: $COLOR-TEXT-WHITE;
+  }
+
+  &__text-container {
+    padding: 6px;
+    background-color: $COLOR-THIRD;
+  }
+  &__img {
+    height: 600px;
+    width: 500px;
+  }
+}

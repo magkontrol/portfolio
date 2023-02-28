@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background: linear-gradient(#212529, #8354c1);
+}
+.header__title {
+  display: none;
+  margin: 6px;
+  padding-left: 30px;
+  color: #fff;
+}
+.header__nav {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 2px;
+  margin: 5px;
+}
+.header__modes {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 2px;
+  margin: 5px;
+}/*# sourceMappingURL=header.css.map */

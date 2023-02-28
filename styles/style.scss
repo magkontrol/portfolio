@@ -1,0 +1,25 @@
+@import "variables";
+@import "header";
+@import "person";
+@import "works";
+@import "footer";
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}

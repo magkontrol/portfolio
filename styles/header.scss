@@ -1,0 +1,35 @@
+@import "variables";
+
+.header {
+  display: flex;
+  height: $header-hight;
+  align-items: center;
+  background: linear-gradient($COLOR-FIRST, $COLOR-SECOND);
+
+  &__title {
+    display: none;
+    margin: 6px;
+    padding-left: 30px;
+    color: $COLOR-TEXT-WHITE;
+  }
+
+  &__nav {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $COLOR-TEXT-GRAY;
+    padding: 2px;
+    margin: 5px;
+  }
+  &__modes {
+    text-decoration: none;
+    color: $COLOR-TEXT-GRAY;
+    padding: 2px;
+    margin: 5px;
+  }
+}
