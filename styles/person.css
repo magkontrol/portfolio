@@ -1,6 +1,15 @@
 .person {
+  align-items: center;
+  height: 100vh;
+  padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
+  background-image: url(../img/bg-person.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 400;
+  font-size: 36px;
 }
 .person__title {
   color: #fff;

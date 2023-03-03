@@ -1,9 +1,11 @@
 @import "variables";
 
 .about {
+  display: flex;
   &__title {
     text-transform: uppercase;
     text-align: center;
+    justify-content: center;
   }
   &__container {
     display: flex;

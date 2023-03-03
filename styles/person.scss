@@ -1,9 +1,17 @@
 @import "variables";
 
 .person {
+  align-items: center;
+  height: 100vh;
+  padding-top: $header-hight;
   display: flex;
   justify-content: space-evenly;
-
+  background-image: url(../img/bg-person.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 400;
+  font-size: 36px;
   &__title {
     color: $COLOR-TEXT-WHITE;
   }

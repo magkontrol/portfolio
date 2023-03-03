@@ -1,6 +1,10 @@
+.about {
+  display: flex;
+}
 .about__title {
   text-transform: uppercase;
   text-align: center;
+  justify-content: center;
 }
 .about__container {
   display: flex;

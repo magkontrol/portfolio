@@ -1,6 +1,8 @@
 @import "variables";
 
 .header {
+  position: fixed;
+  width: 100%;
   display: flex;
   height: $header-hight;
   align-items: center;
