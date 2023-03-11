@@ -51,8 +51,12 @@
   color: #fff;
 }
 .person__text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 6px;
-  background-color: #4a148c;
+  width: 500px;
+  height: 600px;
 }
 .person__img {
   height: 600px;
@@ -63,8 +67,14 @@
   text-transform: uppercase;
   text-align: center;
 }
+.works__items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .works__item {
-  height: 350px;
+  width: 50%;
+  height: 400px;
 }
 
 .footer {

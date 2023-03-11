@@ -18,8 +18,12 @@
   color: #fff;
 }
 .person__text-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 6px;
-  background-color: #4a148c;
+  width: 500px;
+  height: 600px;
 }
 .person__img {
   height: 600px;

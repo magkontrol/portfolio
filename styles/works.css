@@ -2,6 +2,12 @@
   text-transform: uppercase;
   text-align: center;
 }
+.works__items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .works__item {
-  height: 350px;
+  width: 50%;
+  height: 400px;
 }/*# sourceMappingURL=works.css.map */

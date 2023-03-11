@@ -5,7 +5,13 @@
     text-transform: uppercase;
     text-align: center;
   }
+  &__items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
   &__item {
-    height: 350px;
+    width: 50%;
+    height: 400px;
   }
 }
